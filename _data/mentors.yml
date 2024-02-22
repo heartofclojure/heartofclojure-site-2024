@@ -1,24 +1,24 @@
-- name: Jan Stępień
-  url: https://janstepien.com
-  image: /img/mentors/jan.jpeg
-- name: Dave Liepmann
-  url: https://www.daveliepmann.com
-  image: /img/mentors/dave.jpeg
-- name: Yulia Startsev
-  url: http://hag.codes/
-  image: /img/mentors/yulia.jpeg
-- name: Justin Gehtland
-  url: https://twitter.com/jgehtland
-  image: /img/mentors/justin.jpeg
-- name: Daniel Barreto
-  url: https://twitter.com/volrath
-  image: /img/mentors/daniel.jpeg
-- name: Tiago Luchini
-  url: https://luchini.nyc
-  image: /img/mentors/tiago.jpeg
-- name: Kenneth Kalmer
-  url: https://about.me/kennethkalmer
-  image: /img/mentors/kenneth.jpeg
-- name: David Chambers
-  url: https://davidchambers.me/
-  image: /img/mentors/david_chambers.jpeg
+# - name: Jan Stępień
+#   url: https://janstepien.com
+#   image: /img/mentors/jan.jpeg
+# - name: Dave Liepmann
+#   url: https://www.daveliepmann.com
+#   image: /img/mentors/dave.jpeg
+# - name: Yulia Startsev
+#   url: http://hag.codes/
+#   image: /img/mentors/yulia.jpeg
+# - name: Justin Gehtland
+#   url: https://twitter.com/jgehtland
+#   image: /img/mentors/justin.jpeg
+# - name: Daniel Barreto
+#   url: https://twitter.com/volrath
+#   image: /img/mentors/daniel.jpeg
+# - name: Tiago Luchini
+#   url: https://luchini.nyc
+#   image: /img/mentors/tiago.jpeg
+# - name: Kenneth Kalmer
+#   url: https://about.me/kennethkalmer
+#   image: /img/mentors/kenneth.jpeg
+# - name: David Chambers
+#   url: https://davidchambers.me/
+#   image: /img/mentors/david_chambers.jpeg
