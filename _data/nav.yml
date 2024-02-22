@@ -2,10 +2,10 @@
   path: /
 - title: Location
   path: /location
-- title: Speakers
-  path: /speakers
-- title: Guide
-  path: /guide
+# - title: Speakers
+#   path: /speakers
+# - title: Guide
+#   path: /guide
 # - title: Call for Speakers
 #   path: /call-for-speakers
 # - title: Be a Sponsor
@@ -14,7 +14,7 @@
 #   path: /tickets
 # - title: Code of Conduct
 #   path: /code-of-conduct
-- title: Accessibility
-  path: /accessibility
-- title: Activities
-  path: https://activities.heartofclojure.eu
+# - title: Accessibility
+#   path: /accessibility
+# - title: Activities
+#   path: https://activities.heartofclojure.eu
