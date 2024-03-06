@@ -10,10 +10,22 @@ permalink: /
   </div>
   <p class="f3 tc">We're back, baby! Five years after the legendary first edition, Heart of Clojure returns.</p>
   <p class="f3 tc">Coming to Leuven, Belgium. Fall 2024.</p>
-  <div style="min-height: 58px; max-width: 440px;width: 100%;position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%);">
-    <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.1/umd/signup-form.min.js" data-button-color="#197eff" data-button-text-color="#FFFFFF" data-site="https://gaiwan.co/" async> </script>
+  <div>
+      <form onsubmit="subscribe(event)" class="flex flex-column items-center">
+          <h3 class="mb3">Stay up to date</h3>
+          <div class="ba mb3">
+              <input type="email" id="email" name="email" placeholder="Your email address" class="pa2 bn outline-0" required/>
+              <input type="submit" value="Subscribe" class="pa2 bn fw7 white bg-blue pointer">
+          </div>
+          <div>
+              <input type="checkbox" id="updates" name="updates" class="w1 h1 pointer"/>
+              <label for="updates" class="pointer">Also receive <span class="fw7">Gaiwan</span> updates</label>
+          </div>
+      </form>
+      <div class="flex flex-column items-center white bg-black" style="display: none;">
+          <h3>Now check your email</h3>
+      </div>
   </div>
-</div>
 
 <!-- <div class="mw7 pa3 center lh-copy f4"> -->
 <!--   <section class="pv5"> -->
