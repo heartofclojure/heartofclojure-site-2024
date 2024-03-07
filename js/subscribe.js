@@ -4,18 +4,22 @@ const HOC_NEWSLETTER_ID = '65d5fdad1fcf58005e768553';
 async function subscribe(e) {
     e.preventDefault();
 
-    const email = e.target.querySelector('input[name="email"]').value;
-    const updates = e.target.querySelector('input[name="updates"]').checked;
+    const form = $(e.target);
+    const button = form.find('input[type="submit"]');
+    const email = form.find('input[name="email"]');
+    const updates = form.find('input[name="updates"]');
+
+    button.prop({'disabled': true, 'value': 'Subscribing...'});
 
     const body = {
-        email: email,
+        email: email.val(),
         emailType: "signup",
         requestSrc: "portal",
         referrer: "https://gaiwan.co/",
         newsletters: [{id: HOC_NEWSLETTER_ID}],
     };
 
-    if (updates === true) {
+    if (updates.prop('checked') === true) {
         body.newsletters.push({id: GAIWAN_NEWSLETTER_ID});
     }
 
@@ -27,10 +31,11 @@ async function subscribe(e) {
         method: "POST",
         mode: "cors"
     }).then(response => {
-        $(e.target).hide();
-        $(e.target.nextElementSibling).fadeIn("slow");
+        form.hide('1s');
+        form.siblings('.success').fadeIn("1s");
     }).catch(e => {
-        // TODO: handle errors
         console.error(e);
+        form.hide('1s');
+        form.siblings('.error').fadeIn("1s");
     });
 }
