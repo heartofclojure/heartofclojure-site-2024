@@ -4,43 +4,80 @@ title:  "Heart of Clojure"
 permalink: /
 ---
 
-<div class="mw7 ph3 center lh-copy f4">
-  <div class="tc">
-    <h1 class="tc mb3">Heart of Clojure</h1>
-  </div>
-  <p class="f3 tc">We're back, baby! Five years after the legendary first edition, Heart of Clojure returns.</p>
-  <p class="f3 tc">Coming to Leuven, Belgium. Fall 2024.</p>
+<section class="hoc-section">
+  <h1>Heart of Clojure</h1>
+  <p class="f3">We're back, baby! Five years after the legendary first edition, Heart of Clojure returns.</p>
+  <p class="f3">Coming to Leuven, Belgium. September 18 & 19, 2024.</p>
+  <p class="f3">Heart of Clojure will take place
+  at <a href="https://www.hetdepot.be/">Het Depot</a>, a old cinema turned music
+  venue, and at <a href="https://www.hal5.be/">Hal5</a>, a converted railroad
+  workshop, both a few minutes walk from the Leuven train
+  station.</p>
   <div class="mt5">
-      <form onsubmit="subscribe(event)" class="flex flex-column items-center bg-lightest-blue pt4 pb4">
-          <h2 class="mt0 mb4">Stay up to date</h2>
-          <div class="ba mb3 flex items-center">
-              <input type="email" id="email" name="email" placeholder="Your email address" class="pa2 bn outline-0" required/>
-              <input type="submit" value="Subscribe" class="pa2 bn fw7 white bg-blue pointer">
-          </div>
-          <div class="flex items-center">
-              <input type="checkbox" id="updates" name="updates" class="w1 h1 pointer mr2"/>
-              <label for="updates" class="pointer f5">Also receive <span class="fw7">Gaiwan</span> updates</label>
-          </div>
-      </form>
-      <div class="success flex flex-column items-center white bg-black pa4" style="display: none;">
-          <div class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
-                  <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
-              </svg>
-              <h2 class="ma0">Now check your email!</h2>
-          </div>
-          <p class="f5 moon-gray">To complete the signup, click the confirmation link in your inbox. If it doesn't arrive within 5 minutes, check your spam folder.</p>
+    <form onsubmit="subscribe(event)" id="signup-form">
+      <h2>Stay up to date</h2>
+      <div class="ba mb3 flex items-center">
+        <input type="email" id="email" name="email" placeholder="Your email address" class="pa2 bn outline-0" required/>
+        <input type="submit" value="Subscribe" class="pa2 bn fw7 white bg-blue pointer">
       </div>
-      <div class="error flex flex-column items-center white bg-dark-red pa4" style="display: none;">
-          <div class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
-                  <path d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240Zm40 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/>
-              </svg>
-              <h2 class="ma0">Ops, something went wrong</h2>
-          </div>
-          <p class="f5 light-gray">Please try again later. If the problem persists, contact <a class="fw7 light-gray" href="mailto:arne@gaiwan.co">arne@gaiwan.co</a>.</p>
+      <div class="flex items-center">
+        <input type="checkbox" id="updates" name="updates" class="w1 h1 pointer mr2"/>
+        <label for="updates" class="pointer f5">Also receive the <span class="fw7">Gaiwan</span> team's newsletter</label>
       </div>
+    </form>
+    <div class="success flex flex-column items-center white bg-black pa4" style="display: none;">
+      <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
+          <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+        </svg>
+        <h2 class="ma0">Now check your email!</h2>
+      </div>
+      <p class="f5 moon-gray">To complete the signup, click the confirmation link in your inbox. If it doesn't arrive within 5 minutes, check your spam folder.</p>
+    </div>
+    <div class="error flex flex-column items-center white bg-dark-red pa4" style="display: none;">
+      <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
+          <path d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240Zm40 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/>
+        </svg>
+        <h2 class="ma0">Oops, something went wrong</h2>
+      </div>
+      <p class="f5 light-gray">Please try again later. If the problem persists, contact <a class="fw7 light-gray" href="mailto:contact@gaiwan.co">contact@gaiwan.co</a>.</p>
+    </div>
   </div>
+</section>
+
+<section id="volunteer" class="pt5">
+  <div class="tc mw7 center ph3">
+    <h2>Volunteer</h2>
+    <p>Heart of Clojure is a conference for, and to a large extent by, the
+    community. That means we rely on volunteers to make this event awesome! We
+    need help both before and during the event. If you are interested in getting
+    involved, then contact us
+    at <a href="mailto:orga@heartofclojure.eu">orga@heartofclojure.eu</a>, and
+    tell us what you are interested in, and any relevant skills or experience
+    you can bring to the table.</p>
+  </div>
+</section>
+
+<section id="sponsor_us" class="pt5">
+  <div class="tc mw7 center ph3">
+    <h2>Sponsor Us</h2>
+    <p>We are currently finalizing the sponsorship brochure. If your company is
+    interested in supporting Heart of Clojure, and in being part in one of the
+    most exciting events in the Clojure ecosystem, then get in touch at
+      <a href="mailto:orga@heartofclojure.eu">orga@heartofclojure.eu</a>.</p>
+</p>
+  </div>
+</section>
+
+<section id="sponsors" class="pt5">
+  <div class="tc mw7 center ph3">
+    <h2>Organized by the Gaiwan Team</h2>
+    <a class="dib" href="https://gaiwan.co">
+      <img alt="The Gaiwan Team" class="ma4" width="200px" src="/img/sponsors/gaiwan.png" />
+    </a>
+  </div>
+</section>
 
 <!-- <div class="mw7 pa3 center lh-copy f4"> -->
 <!--   <section class="pv5"> -->
@@ -104,14 +141,6 @@ permalink: /
      <a class="dib ma3 link ba br2 bw2 b--pink-t60 hover-bg-pink-t60 hover-white pink-t60 pv3 ph4" href="/Sponsor_Heart_of_Clojure.pdf">Sponsorship Brochure</a>.
      </section>
      </section> -->
-<section id="sponsors" class="pt5">
-  <div class="tc mw7 center ph3">
-    <h2>Organized by the Gaiwan Team</h2>
-    <a class="dib" href="https://gaiwan.co">
-      <img alt="The Gaiwan Team" class="ma4" width="200px" src="/img/sponsors/gaiwan.png" />
-    </a>
-  </div>
-</section>
 
 <!-- <section id="sponsors" class="pt5"> -->
 <!--   <div class="tc mw7 center ph3"> -->

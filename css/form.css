@@ -1,12 +1,13 @@
-#mc_embed_signup form { padding: 0; }
-#mc_embed_signup form .asterisk { color: #e25f7d; }
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #cdecff;
+  align-items: center;
+}
 
-#mc_embed_signup .button {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: black;
-    height: 3rem;
-    border: 3px solid black;
-    border-radius: 0;
-    background-color: white;
+#signup-form h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
 }

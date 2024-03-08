@@ -16,3 +16,19 @@
 .people a { border-bottom: none !important; }
 .btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
 .btn-cta a:hover, .people a:hover { box-shadow: none !important; }
+
+.hoc-section {
+  margin: 0 auto;
+  /* font-size: 1.25rem; */
+  padding: 0 1rem;
+  max-width: 48rem;
+  line-height: 1.5;
+}
+
+.hoc-section h1 {
+  margin-bottom: 1rem;
+}
+
+#front-page .hoc-section {
+  text-align: center;
+}
