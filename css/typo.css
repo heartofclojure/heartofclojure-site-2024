@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5 {
-    font-family: 'Halant', Helvetica, Arial, Sans-Serif;
+    font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
 }
 
 .markdown a, .hoc-link {
@@ -35,10 +35,6 @@ nav a:hover {
 */
 
 .hoc {
-    font-family: 'Halant', Helvetica, Arial, Sans-Serif;
+    font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
     font-weight: bold;
-}
-
-.nunito {
-    font-family: 'Nunito', Helvetica, Arial, Sans-Serif;
 }
