@@ -24,10 +24,28 @@ section {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  section {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+}
+
 .intro {  
   margin-top: 3rem;
   text-align: center;
   width: 60vw;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-input {
+    flex-direction: column;
+  }
 }
 
 .tickets {
