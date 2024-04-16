@@ -8,13 +8,16 @@
 @import url('colors.css');
 
 html {
-    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
-    color: #2c3437;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #180f2e;
 }
 
 ::selection {

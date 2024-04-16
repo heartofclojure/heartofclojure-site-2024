@@ -17,18 +17,48 @@
 .btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
 .btn-cta a:hover, .people a:hover { box-shadow: none !important; }
 
-.hoc-section {
+section {
   margin: 0 auto;
-  /* font-size: 1.25rem; */
-  padding: 0 1rem;
-  max-width: 48rem;
-  line-height: 1.5;
-}
-
-.hoc-section h1 {
-  margin-bottom: 1rem;
-}
-
-#front-page .hoc-section {
+  margin-top: 2rem;
+  padding: 2rem;
   text-align: center;
+}
+
+.intro {  
+  margin-top: 3rem;
+  text-align: center;
+  width: 60vw;
+}
+
+.tickets {
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sponsor-us {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1rem solid #73c04f;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.gaiwan-logo {
+  width: 200px;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #1f1643;
+  margin-bottom: 0;
 }

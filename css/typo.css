@@ -1,5 +1,47 @@
 h1, h2, h3, h4, h5 {
-    font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+p {
+    color: #180f2e;
+}
+
+.lead {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.lead-inverted {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.accent {
+    color: #e25f7d;
+}
+
+.inline-link {
+    font-weight: bold;
+    color: #180f2e;    
+    text-decoration: none;
+    border-bottom: 2px solid #180f2e;
+}
+
+.inline-link:hover {
+    color: #e25f7d;
+}
+
+.inline-link-inverted {
+    font-weight: bold;
+    color: white;    
+    text-decoration: none;
+    border-bottom: 2px solid white;
 }
 
 .markdown a, .hoc-link {
@@ -7,6 +49,10 @@ h1, h2, h3, h4, h5 {
     color: inherit;
     border-bottom: .1rem solid black;
     box-shadow: none;
+}
+
+.inline-link-inverted:hover {
+    color: #e25f7d;
 }
 
 .markdown a:hover, .hoc-link:hover {
@@ -27,14 +73,16 @@ nav a:hover {
     box-shadow: none;
 }
 
-/*
-.markdown ul, .markdown li {
-    list-style: none;
+.button-link {
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color: #e25f7d;
+    text-align: center;
     text-decoration: none;
+    max-width: 300px;
 }
-*/
 
-.hoc {
-    font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
-    font-weight: bold;
+.button-link:hover {
+    background-color: #91344c;
 }
