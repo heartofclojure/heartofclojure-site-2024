@@ -1,5 +1,10 @@
-#gradient {
-    z-index: -100;
+header {
+  background-image: url('/img/header-placeholder-1920px.jpg');
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height: 600px;
+  width: 100%;
 }
 
 .organizers { margin-left: 4rem; }
