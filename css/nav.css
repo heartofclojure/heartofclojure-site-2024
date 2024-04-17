@@ -55,12 +55,14 @@ nav {
     .nav-menu { display: none; }
     .nav-bar {
       display: block;
+      width: 100vw;
       max-height: 72px;
       background-color: #1f1643;
     }
 
     .nav-items {
         display: flex;
+        justify-content: center;
         align-items: center;
         transition: 0.1s;
     }
@@ -68,6 +70,7 @@ nav {
     .nav-items a.nav-item {
         font-weight: bold;
         color: white;
+        text-decoration: none;
         margin: 0 .5rem;
         padding: 1.5rem 1rem;
     }
@@ -75,4 +78,8 @@ nav {
     .nav-bar a.nav-item:hover, .nav-bar a.nav-item:focus, .nav-bar a.nav-item:active {
       color: #f0567d
     }
+}
+
+.link:focus {
+    outline: none;
 }
