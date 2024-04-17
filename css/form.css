@@ -1,20 +1,33 @@
-input {
-  background-color: #ebe8f0;
-  padding: 1rem 2rem;
-  border-radius: .5rem;
-  margin: 1rem .5rem;
-  border: 0;
-}  
+.email-wrapper {
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
 
-#signup-form {
+.checkbox-wrapper {
   display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  flex-direction: row;
   align-items: center;
+  margin-left: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-  #signup-form {
+  .checkbox-wrapper {
+    text-align: left;
+    margin-top: .5rem;
   }
+}
+
+input {
+  width: 100%;
+  background-color: #ebe8f0;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin: .5rem;
+  border: 0;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  accent-color: #f0567d;
 }

@@ -80,6 +80,7 @@ nav a:hover {
     background-color: #e25f7d;
     text-align: center;
     text-decoration: none;
+    width: auto;
     max-width: 300px;
 }
 

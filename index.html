@@ -29,36 +29,37 @@ permalink: /
   </div>
 </section>
 
-<section>
+<section id="newsletter" class="newsletter">
   <div class="content-wrapper">
     <form onsubmit="subscribe(event)" id="signup-form">
-      <h2>Stay up to date</h2>
-      <div class="form-input">
+      <h2>Stay up to date!</h2>
+      <div class="email-wrapper">
         <input type="email" id="email" name="email" placeholder="Your email address" required/>
-        <input type="submit" value="Subscribe" class="button-link">
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="updates" name="updates" class="checkbox"/>
+          <label for="updates" class="label">Also sign up for the <a class="inline-link" href="https://gaiwan.co/" target="_blank">Gaiwan</a> newsletter.</label>
+        </div>
       </div>
-      <div class="flex items-center">
-        <input type="checkbox" id="updates" name="updates" class="w1 h1 pointer mr2"/>
-        <label for="updates" class="pointer f5">Also receive the <span class="fw7">Gaiwan</span> team's newsletter</label>
-      </div>
+      <input type="submit" value="Subscribe" class="button-link">
+
     </form>
-    <div class="success flex flex-column items-center white bg-black pa4" style="display: none;">
-      <div class="flex items-center">
+    <div class="success" style="display: none;">
+      <div class="input-wrapper">
         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
           <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
         </svg>
-        <h2 class="ma0">Now check your email!</h2>
+        <h2>Check your email!</h2>
       </div>
-      <p class="f5 moon-gray">To complete the signup, click the confirmation link in your inbox. If it doesn't arrive within 5 minutes, check your spam folder.</p>
+      <p>Please confirm your subscription by clicking on the link in your inbox. If it doesn't arrive within 5 minutes, check your spam folder.</p>
     </div>
-    <div class="error flex flex-column items-center white bg-dark-red pa4" style="display: none;">
-      <div class="flex items-center">
+    <div class="error" style="display: none;">
+      <div class="input-wrapperr">
         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="#ffffff" class="h2 w2 mr2">
           <path d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240Zm40 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/>
         </svg>
-        <h2 class="ma0">Oops, something went wrong</h2>
+        <h2>Oops, something went wrong</h2>
       </div>
-      <p class="f5 light-gray">Please try again later. If the problem persists, contact <a class="fw7 light-gray" href="mailto:contact@gaiwan.co">contact@gaiwan.co</a>.</p>
+      <p>Please try again later. If the problem persists, contact <a class="inline-link"  href="mailto:contact@gaiwan.co" target="_blank">contact@gaiwan.co</a>.</p>
     </div>
   </div>
 </section>
