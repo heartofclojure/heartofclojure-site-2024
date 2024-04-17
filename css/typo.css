@@ -63,16 +63,6 @@ p {
     transition: box-shadow .25s;
 }
 
-nav a {
-    border: none;
-    box-shadow: none;
-}
-
-nav a:hover {
-    border: none;
-    box-shadow: none;
-}
-
 .button-link {
     color: white;
     padding: 1rem 2rem;
