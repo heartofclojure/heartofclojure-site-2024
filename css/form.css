@@ -1,6 +1,13 @@
 .email-wrapper {
+  margin: 0 auto;
   max-width: 600px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .email-wrapper {
+    margin-right: .5rem;
+  }
 }
 
 .checkbox-wrapper {
