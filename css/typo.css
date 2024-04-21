@@ -63,6 +63,10 @@ p {
     transition: box-shadow .25s;
 }
 
+.button-link-wrapper {
+    margin-top: 3rem;
+}
+
 .button-link {
     color: white;
     padding: 1rem 2rem;

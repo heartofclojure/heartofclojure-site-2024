@@ -47,6 +47,17 @@ section {
   }
 }
 
+.content-wrapper {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-wrapper {
+    width: 100%;
+  }
+}
+
 .tickets {
   margin-top: 0;
   padding-top: 0;
@@ -62,15 +73,8 @@ section {
   border: 1rem solid #73c04f;
 }
 
-.content-wrapper {
-  margin: 0 auto;
-  width: 60vw;
-}
-
-@media only screen and (max-width: 600px) {
-  .content-wrapper {
-    width: 100%;
-  }
+.cfp-link {
+  margin-top: 2rem;
 }
 
 .sponsors .gaiwan-logo {
@@ -85,3 +89,4 @@ footer {
   background-color: #1f1643;
   margin-bottom: 0;
 }
+
