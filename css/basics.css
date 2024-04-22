@@ -8,6 +8,11 @@ header {
   width: 100%;
 }
 
+.default-page {
+  margin-top: 8rem;
+}
+
+
 section {
   margin: 0 auto;
   margin-top: 2rem;

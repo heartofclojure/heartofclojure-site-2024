@@ -5,23 +5,16 @@
   <body>
     {% include nav.html %}
 
-    <div>
-      <header class="tc relative overflow-auto">
-        <a href="/"><img class="db h5 pt6 pb5 center" src="/img/hoc-logo-white.svg" /></a>
-        <div id="gradient" class="absolute top-0 left-0 right-0 bottom-0"></div>
-      </header>
-
-      <div class="mv5">
-        {% if page.is_markdown %}
-          <div class="markdown lh-copy f4 mw7 center">
-            {{ content }}
-          </div>
-        {% else %}
-          <div class="lh-copy f4">
-            {{ content }}
-          </div>
-        {% endif %}
-      </div>
+    <div class="default-page">
+      {% if page.is_markdown %}
+        <div class="markdown lh-copy f4 mw7 center">
+          {{ content }}
+        </div>
+      {% else %}
+        <div class="lh-copy f4">
+          {{ content }}
+        </div>
+      {% endif %}
     </div>
 
     {% include footer.html %}
