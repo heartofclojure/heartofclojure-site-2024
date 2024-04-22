@@ -96,6 +96,21 @@ footer {
   margin-bottom: 0;
 }
 
+footer p {
+  color: white;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-column {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
 .organizers { margin-left: 4rem; }
 .organizers p {
   margin: 0.25rem 0;
