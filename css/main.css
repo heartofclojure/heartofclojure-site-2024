@@ -18,6 +18,7 @@ body {
     font-size: 16px;
     line-height: 1.5rem;
     color: #180f2e;
+    background-color: white;
 }
 
 ::selection {

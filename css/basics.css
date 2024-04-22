@@ -1,4 +1,5 @@
 header {
+  margin-top: 72px;
   background-image: url('/img/header-placeholder-1920px.jpg');
   background-size: cover;
   background-position-y: center;
@@ -6,21 +7,6 @@ header {
   height: 600px;
   width: 100%;
 }
-
-.organizers { margin-left: 4rem; }
-.organizers p {
-  margin: 0.25rem 0;
-}
-
-.backoffice h3 { margin-top: 1rem; }
-.backoffice p {
-  margin: 0.25rem 0;
-}
-.bg-light-grey { background-color: snow; }
-
-.people a { border-bottom: none !important; }
-.btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
-.btn-cta a:hover, .people a:hover { box-shadow: none !important; }
 
 section {
   margin: 0 auto;
@@ -67,14 +53,29 @@ section {
   text-align: center;
 }
 
-.sponsor-us {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  border: 1rem solid #73c04f;
-}
-
 .cfp-link {
   margin-top: 2rem;
+}
+
+.sponsor-us {
+  background-image: url('/img/sponsor-bg-light.jpg');
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+.highlights {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.img-highlight {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid rgba(255, 255, 255, .5); 
 }
 
 .sponsors .gaiwan-logo {
@@ -90,3 +91,13 @@ footer {
   margin-bottom: 0;
 }
 
+.organizers { margin-left: 4rem; }
+.organizers p {
+  margin: 0.25rem 0;
+}
+
+.bg-light-grey { background-color: snow; }
+
+.people a { border-bottom: none !important; }
+.btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
+.btn-cta a:hover, .people a:hover { box-shadow: none !important; }
