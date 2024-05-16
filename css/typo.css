@@ -68,8 +68,10 @@ p {
 }
 
 .button-link {
+    display: inline-flex;
     color: white;
     padding: 1rem 2rem;
+    margin-bottom: 2rem;
     border-radius: .5rem;
     background-color: #e25f7d;
     text-align: center;
