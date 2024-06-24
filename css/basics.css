@@ -81,9 +81,15 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 10px solid rgba(255, 255, 255, .5); 
+  justify-self: center;
+  max-height: 220px;
 }
 
-.sponsors .gaiwan-logo {
+.sponsors {
+  background-color: #ebe8f1;
+}
+
+.organizers .gaiwan-logo {
   width: 200px;
 }
 
