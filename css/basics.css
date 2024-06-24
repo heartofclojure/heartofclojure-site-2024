@@ -116,12 +116,6 @@ footer p {
   flex-direction: column;
 }
 
-
-.organizers { margin-left: 4rem; }
-.organizers p {
-  margin: 0.25rem 0;
-}
-
 .bg-light-grey { background-color: snow; }
 
 .people a { border-bottom: none !important; }
