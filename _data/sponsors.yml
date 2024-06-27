@@ -61,7 +61,7 @@
 - name: Penpot
   tier: supporting
   img: /img/sponsors/penpot-logo.png
-  url: https://penpot.app/
+  url: https://penpot.app/?utm_source=event&utm_medium=site&utm_campaign=2024&utm_id=Heartofclojure
 # - name: LambdaWerk
 #   tier: brick
 #   img: /img/sponsors/lambdawerk.png
