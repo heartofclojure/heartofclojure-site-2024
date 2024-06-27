@@ -20,3 +20,4 @@ defaults:
       type: "talks"
     values:
       layout: "talk"
+      permalink: "/talks/:title/"

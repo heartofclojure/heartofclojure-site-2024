@@ -1,0 +1,32 @@
+---
+layout: default
+title:  "Talks - Heart of Clojure"
+permalink: /talks
+---
+<div class="mv5">
+    <div class="lh-copy f4">
+        <h1 class="tc mw7 center">Talks - not yet finalised</h1>
+        <!-- <p class="tc mw7 center">Note that this list isn't yet complete, to stay in the loop, <a class="hoc-link" href="https://twitter.com/heartofclojure">follow @heartofclojure.</a></p>
+        -->
+
+        <div class="bg-white">
+            {% assign talks = site.talks %}
+            {% for talk in talks %}
+            <div class="cf mw8 center pt6" id="">
+                <div class="fl-m fl-l w-third-m w-third-l pa4">
+                    <span class="db pink-t60 b tc"></span>
+                </div>
+                <div class="fl-m fl-l w-two-thirds-m w-two-thirds-l pa3">
+                    <div class="bg-g{% cycle 1, 2, 3, 4 %}">
+                        <h2 class="mv0 blend-screen bg-white pr5-ns">
+                            <a href="{{talk.url}}">{{talk.title}}</a>
+                        </h2>
+                    </div>
+                    <p>{{talk.abstract}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>

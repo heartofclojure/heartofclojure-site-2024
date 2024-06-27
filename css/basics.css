@@ -134,3 +134,12 @@ footer p {
 .people a { border-bottom: none !important; }
 .btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
 .btn-cta a:hover, .people a:hover { box-shadow: none !important; }
+
+.talk-page {
+  max-width: 800px;
+  padding: 12px;
+  margin: auto;
+}
+
+.talk-page > h1 {
+}
