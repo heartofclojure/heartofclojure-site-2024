@@ -12,6 +12,14 @@ In a terminal, clone this repository, `cd` into it, and run `bundle install`. Yo
 
 After that run `bundle exec jekyll serve`. You can now access the site at [http://localhost:4000](http://localhost:4000). Changes will automatically be picked up (you do need to refresh your browser).
 
+## Docker
+
+For dev version you can also run
+
+```
+docker compose up
+```
+
 ## Markdown vs HTML
 
 Pages are generally written in Markdown. They need a "preamble" for Jekyll to pick them up though. For instance you can create a file named `tickets.md`, which will result in the page `https://heartofclojure.eu/tickets`. You don't need to add `.html` to the URL, and you should not use `.html` in links.

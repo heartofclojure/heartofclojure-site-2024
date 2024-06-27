@@ -11,3 +11,12 @@ classsets:
   button_non_white_bg: "link ba br2 bw2 f4 b--white hover-bg-white hover-pink-t60 b white pv3 ph4 mh3"
 plugins:
   - jekyll-redirect-from
+collections:
+  talks:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"

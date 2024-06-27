@@ -26,7 +26,7 @@ section {
   }
 }
 
-.intro {  
+.intro {
   margin-top: 3rem;
   text-align: center;
   width: 60vw;
@@ -72,21 +72,34 @@ section {
 }
 
 .highlights {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 4rem;
+  /* grid-gap: 2rem; */
+  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+  justify-content: center;
+}
+
+.highlights > a {
+  width: 220px;
+  height: 220px;
 }
 
 .img-highlight {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  object-fit: cover;
-  border: 10px solid rgba(255, 255, 255, .5); 
+  object-fit: contain;
+  border: 10px solid rgba(240, 240, 240, .5);
+  background: white;
   justify-self: center;
   max-height: 220px;
 }
 
 .sponsors {
   background-color: #ebe8f1;
+  padding-bottom: 4rem;
 }
 
 .organizers .gaiwan-logo {
