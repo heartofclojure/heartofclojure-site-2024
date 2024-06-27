@@ -98,27 +98,29 @@ permalink: /
     <p class="lead">Gold Sponsors</p>
     <div class="highlights">
     {% for sponsor in gold %}
-    <a class="dib v-mid" href="{{sponsor.url}}">
+    <a class="dib v-mid" href="{{sponsor.url}}" target="_blank">
       <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
     </a>
     {% endfor %}
     </div>
 
+    <br>
     {% assign silver = site.data.sponsors | where_exp:"s", "s.tier contains 'silver'" %}
     <p class="lead">Silver Sponsors</p>
     <div class="highlights">
     {% for sponsor in silver %}
-    <a class="dib v-mid" href="{{sponsor.url}}">
+    <a class="dib v-mid" href="{{sponsor.url}}" target="_blank">
       <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
     </a>
     {% endfor %}
     </div>
 
+    <br>
     {% assign supporting = site.data.sponsors | where_exp:"s", "s.tier contains 'supporting'" %}
     <p class="lead">Supporting Sponsors</p>
     <div class="highlights">
     {% for sponsor in supporting %}
-    <a class="dib v-mid" href="{{sponsor.url}}">
+    <a class="dib v-mid" href="{{sponsor.url}}" target="_blank">
       <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
     </a>
     {% endfor %}
