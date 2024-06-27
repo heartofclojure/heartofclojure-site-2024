@@ -2,14 +2,22 @@
   tier: conrete
   img: /img/sponsors/gaiwan.png
   url: https://gaiwan.co
-# - name: Exoscale
-#   tier: brick
-#   img: /img/sponsors/exoscale.png
-#   url: https://www.exoscale.com/compute/
-# - name: Metosin
-#   tier: brick
-#   img: /img/sponsors/metosin.png
-#   url: https://www.metosin.fi
+- name: NuBank
+  tier: gold
+  img: /img/sponsors/nubank-logo.jpg
+  url: https://nubank.workable.com/
+- name: Exoscale
+  tier: gold
+  img: /img/sponsors/exoscale.png
+  url: https://www.exoscale.com/compute/
+- name: ClojuristsTogether
+  tier: gold
+  img: /img/sponsors/clojurists.png
+  url: https://clojuriststogether.org
+- name: Metosin
+  tier: silver
+  img: /img/sponsors/metosin.png
+  url: https://www.metosin.fi
 # - name: Status
 #   tier: brick
 #   img: /img/sponsors/status.png
@@ -18,10 +26,14 @@
 #   tier: concrete
 #   img: /img/sponsors/juxt.png
 #   url: https://juxt.pro/
-# - name: Nextjournal
-#   tier: brick
-#   img: /img/sponsors/nextjournal.png
-#   url: https://nextjournal.com
+- name: Nextjournal
+  tier: silver
+  img: /img/sponsors/nextjournal-logo.jpg
+  url: https://nextjournal.com
+- name: Griffin
+  tier: silver
+  img: /img/sponsors/griffin-logo.jpg
+  url: https://griffin.com/
 # - name: Grammarly
 #   tier: concrete
 #   img: /img/sponsors/grammarly.png
@@ -34,10 +46,22 @@
 #   tier: brick
 #   img: /img/sponsors/pitch.png
 #   url: https://pitch.com
-# - name: NuBank
-#   tier: concrete
-#   img: /img/sponsors/nubank.png
-#   url: https://nubank.workable.com/
+- name: Ibis
+  tier: silver
+  img: /img/sponsors/ibisai-logo.jpg
+  url: https://ibis.ai/
+- name: Otto
+  tier: silver
+  img: /img/sponsors/Otto_logo.png
+  url: https://dev.otto.de
+- name: Nilenso
+  tier: supporting
+  img: /img/sponsors/nilenso-logo.jpg
+  url: https://nilenso.com
+- name: Penpot
+  tier: supporting
+  img: /img/sponsors/penpot-logo.png
+  url: https://penpot.app/
 # - name: LambdaWerk
 #   tier: brick
 #   img: /img/sponsors/lambdawerk.png
@@ -46,10 +70,6 @@
 #   tier: brick
 #   img: /img/sponsors/cognitect.png
 #   url: https://cognitect.com
-# - name: Otto
-#   tier: concrete
-#   img: /img/sponsors/otto.png
-#   url: https://dev.otto.de
 # - name: AppsFlyer
 #   tier: timber
 #   img: /img/sponsors/appsflyer.png

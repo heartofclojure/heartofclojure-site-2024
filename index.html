@@ -92,19 +92,36 @@ permalink: /
 <section id="sponsors" class="sponsors">
   <div class="content-wrapper">
     <h2>Our Sponsors</h2>
+    <p>We couldn't be more thankful for an amazing group of companies who are the sole reason
+    this event is made possible!</p>
+    {% assign gold = site.data.sponsors | where_exp:"s", "s.tier contains 'gold'" %}
     <p class="lead">Gold Sponsors</p>
     <div class="highlights">
-      <img class="img-highlight" src="/img/nubank-logo.jpg" alt="nubank logo">
+    {% for sponsor in gold %}
+    <a class="dib v-mid" href="{{sponsor.url}}">
+      <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
+    </a>
+    {% endfor %}
     </div>
+
+    {% assign silver = site.data.sponsors | where_exp:"s", "s.tier contains 'silver'" %}
     <p class="lead">Silver Sponsors</p>
     <div class="highlights">
-      <img class="img-highlight" src="/img/nextjournal-logo.jpg" alt="nextjournal logo">
-      <img class="img-highlight" src="/img/ibisai-logo.jpg" alt="ibis.ai logo">
-      <img class="img-highlight" src="/img/griffin-logo.jpg" alt="griffin logo">
+    {% for sponsor in silver %}
+    <a class="dib v-mid" href="{{sponsor.url}}">
+      <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
+    </a>
+    {% endfor %}
     </div>
+
+    {% assign supporting = site.data.sponsors | where_exp:"s", "s.tier contains 'supporting'" %}
     <p class="lead">Supporting Sponsors</p>
     <div class="highlights">
-      <img class="img-highlight" src="/img/nilenso-logo.jpg" alt="nilenso logo">
+    {% for sponsor in supporting %}
+    <a class="dib v-mid" href="{{sponsor.url}}">
+      <img class="img-highlight" src="{{sponsor.img}}" alt="{{sponsor.name}} logo">
+    </a>
+    {% endfor %}
     </div>
   </div>
 </section>
@@ -117,3 +134,67 @@ permalink: /
     </a>
   </div>
 </section>
+
+<!-- <div class="mw7 pa3 center lh-copy f4"> -->
+<!--   <section class="pv5"> -->
+<!--     <h2 class="tc" id="support">Meet our lovely hosts!</h2> -->
+<!--     <ul class="list pl0 relative pb4 tc mw6 ph3 center people"> -->
+<!--       {% for hosts in site.data.hosts %} -->
+<!--       <li class="hide-child dib pa3"> -->
+<!--         <a href="{{ hosts.url }}" target="_blank" rel="noopener"> -->
+<!--           <img class="w4 br-100 dib" src="{{ hosts.image }}"> -->
+<!--           <div class="w-100 absolute child bottom-0 left-0 tc"> -->
+<!--             <span class="pink f5">{{ hosts.name }}</span> -->
+<!--           </div> -->
+<!--         </a> -->
+<!--       </li> -->
+<!--       {% endfor %} -->
+<!--     </ul> -->
+<!--     <h2 class="tc" id="speakers">... and speakers:</h2> -->
+<!--     <ul class="list pl0 pb4 tc mw7 ph3 center people"> -->
+<!--         {% assign published = site.data.speakers | where:"public","true" | sort: 'id' %} -->
+<!--         {% for speaker in published %} -->
+<!--         <li class="dib pa3"> -->
+<!--             <a class="link b" href="/program#{{ speaker.id }}"> -->
+<!--                 <img class="w4 dib" src="{{ speaker.img }}"> -->
+<!--                 <div class="w-100 tc"> -->
+<!--                     <span class="db pink f5 w4">{{ speaker.name }}</span> -->
+<!--                 </div> -->
+<!--             </a> -->
+<!--         </li> -->
+<!--         {% endfor %} -->
+<!--     </ul> -->
+<!--     <h2 class="tc" id="support">Our sketchnoters:</h2> -->
+<!--     <ul class="list pl0 relative pb4 tc mw6 ph3 center people"> -->
+<!--       {% for sketchnoters in site.data.sketchnoters %} -->
+<!--       <li class="hide-child dib pa3"> -->
+<!--         <a href="{{ sketchnoters.url }}" target="_blank" rel="noopener"> -->
+<!--           <img class="w4 br-100 dib" src="{{ sketchnoters.image }}"> -->
+<!--           <div class="w-100 absolute child bottom-0 left-0 tc"> -->
+<!--             <span class="pink f5">{{ sketchnoters.name }}</span> -->
+<!--           </div> -->
+<!--         </a> -->
+<!--       </li> -->
+<!--       {% endfor %} -->
+<!--     </ul> -->
+<!--   </section> -->
+<!-- </div> -->
+<!-- <div class="pa5-ns pv5 ph3 bg-light-grey"> -->
+<!--   <div class="tc"> -->
+<!--       <h1 class="tc mb3">Stay in the loop about <span class="pink-t60">speaker announcements</span> and more...</h1> -->
+<!--     <span class="db">✨ Get notified by signing up for our mailing list – we only send delightful news. ✨</span> -->
+<!--   </div> -->
+<!--   <div class="mw7 ph3 center lh-copy f4"> -->
+<!--     <div class="mv5"> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </div> -->
+
+<!-- <section class="mw7 center tc">
+     <section class="pv5 ph3">
+     <h2 class="tc">Sponsors & Partners</h2>
+     <p>If your company is interested in sponsoring this event please don't hesitate to <a mailto="sponsors@heartofclojure.eu">reach out</a>! We've put together a few lovely packages, see them here.</p>
+     <a class="dib ma3 link ba br2 bw2 b--pink-t60 hover-bg-pink-t60 hover-white pink-t60 pv3 ph4" href="/Sponsor_Heart_of_Clojure.pdf">Sponsorship Brochure</a>.
+     </section>
+     </section> -->
+
