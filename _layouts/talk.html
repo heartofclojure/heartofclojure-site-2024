@@ -10,7 +10,7 @@ layout: default
 
   <h2>{{ page.title }} </h2>
   <div class="type"><span>{{page.type}}</span></div>
-  <p>{{ page.abstract }}</p>
+  <p>{{ page.abstract | newline_to_br}}</p>
 
   <div class="speakers">
     <h3>Speakers</h3>
@@ -20,7 +20,7 @@ layout: default
         <img class="avatar" src="{{speaker.avatar}}">
         <div>
           <h4>{{speaker.name}}</h4>
-          <p>{{speaker.biography}}</p>
+          <p>{{speaker.biography | newline_to_br}}</p>
         </div>
       </li>
       {% endfor %}
