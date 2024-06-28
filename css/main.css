@@ -8,6 +8,12 @@
 @import url('colors.css');
 @import url('talks.css');
 
+@import url('front_page.css');
+
+:where(html) {
+  --content-width: 60vw;
+}
+
 html {
     margin: 0;
     box-sizing: border-box;
@@ -18,8 +24,8 @@ body {
     font-family: 'Merriweather Sans', Helvetica, Arial, Sans-Serif;
     font-size: 16px;
     line-height: 1.5rem;
-    color: #180f2e;
-    background-color: white;
+    color: var(--black)
+    background-color: var(--white)
 }
 
 ::selection {

@@ -1,0 +1,27 @@
+#speakers {
+  --avatar-size: 6rem;
+  width: 60vw;
+  ul {
+    columns: 2;
+    padding:0
+  }
+  li {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: left;
+    line-height: 2em;
+  }
+  /* li:nth-child(2n) { */
+  /*   flex-direction: row-reverse; */
+  /* } */
+  h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  a:not(:hover) {
+    color: var(--black);
+    text-decoration: none;
+  }
+}

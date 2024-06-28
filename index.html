@@ -18,12 +18,30 @@ permalink: /
   <p>Or find out if you are eligible for a <a class="inline-link" href="#diversity-ticket">Diversity ticket</a>.</p>
 </section>
 
+{% if site.sections.cfp %}
 <section class="cfp">
   <div class="content-wrapper">
     <h2>Call for Papers ...is closed!</h2>
     <p class="lead">We're finalizing our program and announcing speakers very soon.</p>
   </div>
 </section>
+{% endif %}
+
+{% if site.sections.speakers %}
+<section id="speakers">
+  <h2>Speakers</h2>
+  <ul>
+    {% for talk in site.talks %}
+    {% for speaker in talk.speakers %}
+    <li>
+      <img class=avatar src="{{speaker.avatar}}">
+      <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
+    </li>
+    {% endfor %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
 <section id="newsletter" class="newsletter">
   <div class="content-wrapper">
@@ -136,6 +154,7 @@ permalink: /
     </a>
   </div>
 </section>
+
 
 <!-- <section class="mw7 center tc">
      <section class="pv5 ph3">

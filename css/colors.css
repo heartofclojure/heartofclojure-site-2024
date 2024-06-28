@@ -9,6 +9,7 @@
   --pink-alpha: rgba(226, 96, 126, 0.05);
   --pink: var(--pink6);
   --purple: hsl(252, 51%, 17%);
+  --white: hsl(347, 100%, 97%);
 }
 
 
