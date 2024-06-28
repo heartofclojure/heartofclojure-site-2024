@@ -6,6 +6,7 @@
 @import url('typo.css');
 @import url('util.css');
 @import url('colors.css');
+@import url('talks.css');
 
 html {
     margin: 0;

@@ -1,4 +1,5 @@
 name: Heart of Clojure
+url: https://2024.heartofclojure.eu
 cfp_url: https://cfp.heartofclojure.eu/events/heart-of-clojure
 tickets_url: https://ti.to/heart-of-clojure/heart-of-clojure-2019-leuven-belgium
 tickets_enabled: false
@@ -15,6 +16,14 @@ collections:
   talks:
     output: true
 defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Heart of Clojure"
+      description: "Two days filled with talks, workshops, and activities. September 18 & 19, Leuven, Belgium."
+      site_name: heartofclojure.eu
+      url: https://2024.heartofclojure.eu
+      image: /img/opengraph.png
   - scope:
       path: ""
       type: "talks"

@@ -3,16 +3,27 @@ layout: default
 ---
 
 <div class="talk-page">
-  <img src="{{ page.og-image }}" />
+  <!-- <img src="{{ page.og-image }}" /> -->
 
-  <h1>{{ page.title }}</h1>
+  <h1><a href="/">Heart of Clojure</a></h1>
+  <div class="date-loc">September 18 & 19, Leuven, Belgium.</div>
+
+  <h2>{{ page.title }} </h2>
+  <div class="type"><span>{{page.type}}</span></div>
   <p>{{ page.abstract }}</p>
 
-  <h3>Speakers</h3>
-  <ul>
-  {% for speaker in page.speakers %}
-  <li>{{speaker.name}} - {{speaker.biography}}</li>
-  {% endfor %}
-  </ul>
-
+  <div class="speakers">
+    <h3>Speakers</h3>
+    <ul>
+      {% for speaker in page.speakers %}
+      <li>
+        <img src="{{speaker.avatar}}">
+        <div>
+          <h4>{{speaker.name}}</h4>
+          <p>{{speaker.biography}}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

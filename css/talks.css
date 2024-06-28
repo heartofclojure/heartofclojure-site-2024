@@ -1,0 +1,59 @@
+.talk-page {
+  max-width: 800px;
+  padding: 12px;
+  margin: auto;
+
+  h1 {
+    margin-top: 0;
+    text-align: center;
+    & a:not(:hover) {
+      color: var(--black);
+      text-decoration: none;
+    }
+  }
+  .date-loc {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  h2 {
+      margin-bottom: 0;
+      color: var(--pink-3);
+  }
+
+  .type {
+    margin-bottom: 2rem;
+    span {
+      font-size: 1rem;
+      background-color: var(--pink-3);
+      padding: 0.25rem 0.5rem;
+      line-height: 1em;
+      color: white;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    margin-top: 3rem;
+    list-style: none;
+  }
+  .speakers {
+    padding: 2rem;
+
+    h3 {text-align: center;}
+    img {
+      width: 10rem;
+      height: 10rem;
+      object-fit: cover;
+      border-radius: 100%;
+      flex-shrink: 0;
+      flex-grow: 0;
+      margin-right: 2rem;
+      border: .5rem solid var(--pink-3);
+    }
+    li {
+      display: flex;
+    }
+    h4 {margin-top: 0;}
+  }
+}

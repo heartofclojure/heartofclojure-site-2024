@@ -1,18 +1,18 @@
-<title>{{page.title | default: "Heart of Clojure, 18-19 September, Leuven, Belgium"}}</title>
-<meta name="title" content="{{page.title | default: "Heart of Clojure, 18-19 September, Leuven, Belgium"}}">
-<meta name="description" content="We are back! 18-19 September, Leuven, Belgium. Don't miss it!">
+<title>{{page.title}}</title>
+<meta name="title" content="{{page.title}}">
+<meta name="description" content="{{page.description}}">
 
 <!-- Open Graph / Facebook -->
-<meta property="og:title" content="Heart of Clojure">
-<meta property="og:site_name" content="heartofclojure.eu">
-<meta property="og:url" content="https://2024.heartofclojure.eu">
-<meta property="og:description" content="We are back! 18-19 September, Leuven, Belgium. Don't miss it!">
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:site_name" content="{{page.site_name}}">
+<meta property="og:url" content="{{page.url | absolute_url}}">
+<meta property="og:description" content="{{page.description}}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://2024.heartofclojure.eu/img/opengraph.png">
+<meta property="og:image" content="{{page.image | absolute_url}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://2024.heartofclojure.eu/">
-<meta property="twitter:title" content="{{page.title | default: "Heart of Clojure"}}">
-<meta property="twitter:description" content="{{ page.og_description | default: "We are back! 18-19 September, Leuven, Belgium. Don't miss it!"}}">
-<meta property="twitter:image" content="https://2024.heartofclojure.eu/img/opengraph.png">
+<meta property="twitter:url" content="{{page.url | absolute_url}}">
+<meta property="twitter:title" content="{{page.title}}">
+<meta property="twitter:description" content="{{page.description}}">
+<meta property="twitter:image" content="{{page.image | absolute_url}}">
