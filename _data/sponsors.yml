@@ -14,6 +14,10 @@
   tier: gold
   img: /img/sponsors/clojurists.png
   url: https://clojuriststogether.org
+- name: Latacora
+  tier: gold
+  img: /img/sponsors/latacora.png
+  url: https://latacora.com
 - name: Metosin
   tier: silver
   img: /img/sponsors/metosin.png
