@@ -34,7 +34,7 @@ permalink: /
     {% for talk in site.talks %}
     {% for speaker in talk.speakers %}
     <li>
-      <img class=avatar src="{{speaker.avatar}}">
+      <img class=avatar src="{{speaker.img}}">
       <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
     </li>
     {% endfor %}
