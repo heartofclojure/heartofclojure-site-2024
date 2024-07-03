@@ -9,5 +9,5 @@ speakers:
   avatar: http://cfp.heartofclojure.eu/media/avatars/avatar-2023_1j21Qz1.png
   img: /img/speakers/jack-rusher.png
 abstract: Learn how to use application.garden to quickly deploy a working application with hassle-free authentication, cron jobs, email handling, and a live REPL.
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jack+Rusher&title=An+introduction+to+application.garden&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/jack-rusher.png
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jack+Rusher&title=An+introduction+to+application.garden&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/jack-rusher.png%3F
 ---

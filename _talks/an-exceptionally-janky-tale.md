@@ -11,7 +11,7 @@ speakers:
   personal-site-url: https://jeaye.com
   twitter: jeayewilkerson
 abstract: "Gather 'round, friends, it's story time! Hear the adventurous tale of plunging into unknown depths and meeting new friends along the way.\r\n\r\nMeanwhile, in the interludes, we'll be plunging ourselves deep into the jank compiler and implementing our story's chapters: throw, try, catch, and finally. We won't shy away from the C++ involved, so be ready for a highly technical discussion.\r\n\r\nBy the end of the talk, you'll not only have your heart warmed, you'll also have a clear idea of how a non-trivial compiler feature is implemented, from parsing through to code generation."
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeaye+Wilkerson&title=An+Exceptionally+Janky+Tale&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeaye-wilkerson.png
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeaye+Wilkerson&title=An+Exceptionally+Janky+Tale&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeaye-wilkerson.png%3F
 redirect_from:
 - /talks/caution-jank-ahead/
 ---
