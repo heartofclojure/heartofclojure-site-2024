@@ -2,6 +2,7 @@
 slug: beyond-the-hype-obstacles-on-the-path-to-clojure-adoption
 title: 'Beyond the Hype: Obstacles on the Path to Clojure Adoption'
 type: Talk
+speaker-img: /img/speakers/mitesh-shah.jpg
 speakers:
 - name: Mitesh Shah
   biography: asd

@@ -2,6 +2,7 @@
 slug: cursive-office-hours
 title: Cursive office hours
 type: Office Hours
+speaker-img: /img/speakers/colin-fleming.jpeg
 speakers:
 - name: Colin Fleming
   biography: Colin is the developer of Cursive. He has programmed things for a long time now, in a bunch of different programming languages. When he's not hacking on Cursive, he's mostly climbing in the hills nearby.

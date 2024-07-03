@@ -2,6 +2,7 @@
 slug: open-hearts-for-diversity
 title: Open hearts for diversity
 type: Session
+speaker-img: /img/speakers/katja-bohnke.jpg
 speakers:
 - name: Katja Böhnke
   biography: Katja Böhnke is a software engineer and psychology student. She values connection and learning. She loves to work on diverse teams and to create spaces where people can be themselves and connect with each other.

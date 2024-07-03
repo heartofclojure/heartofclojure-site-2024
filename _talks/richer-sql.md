@@ -2,6 +2,7 @@
 slug: richer-sql
 title: Richer SQL
 type: Talk
+speaker-img: /img/speakers/jeremy-taylor.jpg
 speakers:
 - name: Jeremy Taylor
   biography: Jeremy is the Head of Product at JUXT, with primary responsibility for XTDB. Jeremy has been digging into databases and "tools for thought" for much of his career. He was initially drawn to Clojure for the Datalog, but stayed for the parens.

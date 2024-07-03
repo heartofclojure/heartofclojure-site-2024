@@ -2,6 +2,7 @@
 slug: opening-keynote-tbd
 title: Opening Keynote (TBD)
 type: Keynote
+speaker-img: /img/speakers/lu-wilson.png
 speakers:
 - mastodon: '@TodePond@mas.to'
   name: Lu Wilson

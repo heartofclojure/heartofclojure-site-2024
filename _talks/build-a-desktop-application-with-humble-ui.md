@@ -2,6 +2,7 @@
 slug: build-a-desktop-application-with-humble-ui
 title: Build a Desktop Application with Humble UI
 type: Workshop
+speaker-img: /img/speakers/nikita-prokopov.jpg
 speakers:
 - name: Nikita Prokopov
   biography: Nikita is a Clojure developer with an eye for desing and UX. He’s the author of DataScript, Humble UI, Rum, Clojure Sublimed, Tongue, Uberjars, clj-simple-router, and Fira Code.

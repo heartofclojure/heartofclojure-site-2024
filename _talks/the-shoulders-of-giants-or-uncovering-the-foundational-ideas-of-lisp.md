@@ -2,6 +2,7 @@
 slug: the-shoulders-of-giants-or-uncovering-the-foundational-ideas-of-lisp
 title: The Shoulders of Giants or Uncovering the Foundational Ideas of Lisp
 type: Talk
+speaker-img: /img/speakers/daniel-szmulewicz.jpg
 speakers:
 - mastodon: '@danielsz@emacs.ch'
   name: Daniel Szmulewicz

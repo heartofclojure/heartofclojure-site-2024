@@ -2,6 +2,7 @@
 slug: living-with-legacy-code
 title: Living With Legacy Code
 type: Talk
+speaker-img: /img/speakers/james-reeves.jpeg
 speakers:
 - name: James Reeves
   biography: A Clojure developer since 2008, and the maintainer of several prominent libraries such as Ring, Hiccup and Integrant. James currently works as a freelance contractor just outside of London.

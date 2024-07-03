@@ -2,6 +2,7 @@
 slug: timelines-crafting-a-live-coding-musical-instrument-with-out-of-clojure
 title: 'TimeLines: Crafting a Live Coding Musical Instrument with & out of Clojure'
 type: Talk
+speaker-img: /img/speakers/dimitris-kyriakoudis.png
 speakers:
 - name: Dimitris Kyriakoudis
   biography: "Dimitris is a music tech PhD Student at Univeristy of Sussex, as well as a Live Coding Luthier & Performer\r\n\r\nHe's the creator of the TimeLines live coding system, originally written in Haskell, but since ported to Clojure."

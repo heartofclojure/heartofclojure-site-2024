@@ -2,6 +2,7 @@
 slug: sailing-with-scicloj-a-bayesian-adventure
 title: 'Sailing with Scicloj: A Bayesian Adventure'
 type: Talk
+speaker-img: /img/speakers/sami-kallinen.png
 speakers:
 - name: Sami Kallinen
   biography: Sami is a full-stack Clojure developer, data scientist, and the founder of 8-bit-sheep.com, with experience in leading digital products and media strategy since the early 1990s. Sami has been working at KP System in Växjö, Sweden, for the past three years.

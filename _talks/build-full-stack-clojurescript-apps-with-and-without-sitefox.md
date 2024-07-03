@@ -2,6 +2,7 @@
 slug: build-full-stack-clojurescript-apps-with-and-without-sitefox
 title: Build full-stack ClojureScript apps with and without Sitefox
 type: Workshop
+speaker-img: /img/speakers/chris-mccormick.jpg
 speakers:
 - name: Chris McCormick
   biography: Chris is an independent computer programmer building open source software, freelancing, and bootstrapping online micro-businesses with ClojureScript. He's always looking for efficient and joyful ways to create software, so when a friend introduced him to Clojure at a game jam and he was hooked. He also enjoys tinkering with game dev and making procedural music, and uses ClojureScript for this too.
