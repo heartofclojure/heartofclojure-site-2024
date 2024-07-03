@@ -1,4 +1,5 @@
 ---
+slug: cursive-office-hours
 title: Cursive office hours
 type: Office Hours
 speakers:

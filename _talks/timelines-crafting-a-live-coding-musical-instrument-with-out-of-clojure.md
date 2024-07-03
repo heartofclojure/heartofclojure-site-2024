@@ -1,4 +1,5 @@
 ---
+slug: timelines-crafting-a-live-coding-musical-instrument-with-out-of-clojure
 title: 'TimeLines: Crafting a Live Coding Musical Instrument with & out of Clojure'
 type: Talk
 speakers:

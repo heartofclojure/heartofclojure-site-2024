@@ -145,3 +145,14 @@ footer p {
   flex-grow: 0;
   border: .5rem solid var(--pink-3);
 }
+
+.talk-type-label {
+  margin-bottom: 2rem;
+  span {
+    font-size: 1rem;
+    background-color: var(--pink-3);
+    padding: 0.25rem 0.5rem;
+    line-height: 1em;
+    color: white;
+  }
+}

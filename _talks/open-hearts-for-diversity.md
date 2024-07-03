@@ -1,4 +1,5 @@
 ---
+slug: open-hearts-for-diversity
 title: Open hearts for diversity
 type: Session
 speakers:

@@ -1,4 +1,5 @@
 ---
+slug: an-introduction-to-application-garden
 title: An introduction to application.garden
 type: Workshop
 speakers:
@@ -8,6 +9,4 @@ speakers:
   img: /img/speakers/jack-rusher.png
 abstract: Learn how to use application.garden to quickly deploy a working application with hassle-free authentication, cron jobs, email handling, and a live REPL.
 image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jack+Rusher&title=An+introduction+to+application.garden&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/jack-rusher.png
-redirect_from:
-  - /talks/abc
 ---

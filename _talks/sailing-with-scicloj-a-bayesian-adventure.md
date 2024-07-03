@@ -1,4 +1,5 @@
 ---
+slug: sailing-with-scicloj-a-bayesian-adventure
 title: 'Sailing with Scicloj: A Bayesian Adventure'
 type: Talk
 speakers:

@@ -1,4 +1,5 @@
 ---
+slug: living-with-legacy-code
 title: Living With Legacy Code
 type: Talk
 speakers:

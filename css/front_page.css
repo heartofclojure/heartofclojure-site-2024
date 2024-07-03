@@ -1,15 +1,14 @@
 #speakers {
   --avatar-size: 6rem;
-  @media screen and (min-width: 50em) {
-    ul {
-      columns: 2;
-    }
-  }
   @media screen and (min-width: 80em) {
     width: 60vw;
   }
   ul {
-    padding:0
+    padding:0;
+    @media screen and (min-width: 50em) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
   li {
     padding: 1rem;

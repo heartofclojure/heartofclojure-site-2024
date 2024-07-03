@@ -1,4 +1,5 @@
 ---
+slug: build-full-stack-clojurescript-apps-with-and-without-sitefox
 title: Build full-stack ClojureScript apps with and without Sitefox
 type: Workshop
 speakers:

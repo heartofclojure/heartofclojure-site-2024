@@ -33,10 +33,28 @@ permalink: /
   <ul>
     {% for talk in site.talks %}
     {% for speaker in talk.speakers %}
+    {% if talk.type == "Keynote" %}
     <li>
       <img class=avatar src="{{speaker.img}}">
-      <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
+      <div> 
+        <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
+        <div class="talk-type-label"><span>Keynote</span></div>
+      </div>
     </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    
+    {% for talk in site.talks %}
+    {% for speaker in talk.speakers %}
+    {% if talk.type != "Keynote" %}
+    <li>
+      <img class=avatar src="{{speaker.img}}">
+      <div> 
+        <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
+      </div>
+    </li>
+    {% endif %}
     {% endfor %}
     {% endfor %}
   </ul>
