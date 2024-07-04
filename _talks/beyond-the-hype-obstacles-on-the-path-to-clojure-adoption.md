@@ -5,7 +5,7 @@ type: Talk
 speaker-img: /img/speakers/mitesh-shah.png
 speakers:
 - name: Mitesh Shah
-  biography: asd
+  biography: "Mitesh / @oxalorg has created Clojure screencasts, contributed to LambdaIsland open source repos and also recently volunteered at a ClojureBridge workshop!\n Mitesh works as a Senior full-stack Clojure[script] Engineer at Gaiwan!"
   avatar: http://cfp.heartofclojure.eu/media/avatars/mitesh-oxalorg-sq1_FAYOS1c.png
   img: /img/speakers/mitesh-shah.png
 abstract: "To the mainstream public (devs and business folks), clojure is either seen as an arcane lisp, or as a hyped language. This perception of Clojure is further solidified by the fact that it's hard to get started with Clojure.\r\n\r\nClojure definitely has a very passionate community and undeniable strengths, then what is holding it back? \r\n\r\nBy openly discussing these issues and collborating on solutions, we can propel Clojure beyond it's current position as a powerful defacto business choice. There are many low hanging fruits and quick wins we can do to get the ball rolling."
