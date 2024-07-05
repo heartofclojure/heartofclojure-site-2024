@@ -16,5 +16,5 @@ speakers:
   avatar: http://cfp.heartofclojure.eu/media/avatars/mk-avatar-smaller_YKEoNSn.jpg
   img: /img/speakers/martin-kavalar.jpg
 abstract: "Starting in 2021, we naively took on the task of bringing mission-critical legacy systems in the automotive logistics sector into the modern era. \r\n\r\nThis experience report covers our eventually successful live migration from the IBM AS/400 to Clojure and Datomic. We look at both the technical and human organizational challenges we faced and share our failures and learnings along the way.\r\n\r\nThousands of globally unique 8-character column names, green-screen terminal UIs, skunk work projects and personal drama —  this talk has it all!"
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Philippa+Markovics%2C+Martin+Kavalar&title=Staring+into+the+PLFZABYSS+-+From+the+IBM+AS/400+to+Clojure+%26+Datomic&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/philippa-markovics-martin-kavalar.png%3F
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Philippa+Markovics%2C+Martin+Kavalar&title=Staring+into+the+PLFZABYSS+-+From+the+IBM+AS/400+to+Clojure+%26+Datomic&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/philippa-markovics-martin-kavalar.png%3F1
 ---

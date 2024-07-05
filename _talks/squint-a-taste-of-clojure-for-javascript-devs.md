@@ -11,5 +11,5 @@ speakers:
   twitter: kauppilainen
   company: JUXT
 abstract: Diving head first into shadow-cljs and the surrounding ecosystem can be daunting. What if we could incrementally introduce Clojure into our existing JS applications from the safety of our favourite frontend frameworks like React or Svelte to tame its more complex logic - hopefully with the help of a trusted REPL
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Felix&title=Squint%3A+a+taste+of+Clojure+for+JavaScript+devs&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/felix%3F
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Felix&title=Squint%3A+a+taste+of+Clojure+for+JavaScript+devs&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/felix%3F1
 ---

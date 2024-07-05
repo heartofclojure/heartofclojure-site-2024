@@ -10,5 +10,5 @@ speakers:
   img: /img/speakers/pawel-stroinski.jpeg
   personal-site-url: https://stroin.ski
 abstract: This talk will be a story of inheriting a bespoke text editor with annotation features written in ClojureScript and turning it into a number of things. It will include horror stories of debugging in-house Specter macros running in browser as well as calming stories of how nice it is to work in a code with a good test coverage even if it is difficult to approach, or how enjoyable it is to create interactive audio annotation tooling in ClojureScript.
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Pawe%C5%82+Stroi%C5%84ski&title=Building+Conversational+Speech+Annotation+Tool+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/pawel-stroinski.jpeg%3F
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Pawe%C5%82+Stroi%C5%84ski&title=Building+Conversational+Speech+Annotation+Tool+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/pawel-stroinski.jpeg%3F1
 ---
