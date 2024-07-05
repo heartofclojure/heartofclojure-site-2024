@@ -12,7 +12,7 @@
   url: https://www.exoscale.com/compute/
 - name: ClojuristsTogether
   tier: gold
-  img: /img/sponsors/clojurists.png
+  img: /img/sponsors/ClojuristsTogether_with_background-square.png
   url: https://clojuriststogether.org
 - name: Latacora
   tier: gold
@@ -64,7 +64,7 @@
   url: https://nilenso.com
 - name: Penpot
   tier: supporting
-  img: /img/sponsors/penpot-logo.png
+  img: /img/sponsors/penpot-logo-black-square.png
   url: https://penpot.app/?utm_source=event&utm_medium=site&utm_campaign=2024&utm_id=Heartofclojure
 # - name: LambdaWerk
 #   tier: brick
