@@ -10,7 +10,7 @@ layout: default
 
   <h2>{{ page.title }} </h2>
   <div class="talk-type-label"><span>{{page.type}}</span></div>
-  <p>{{ page.abstract | newline_to_br}}</p>
+  <p>{{ page.abstract | markdownify}}</p>
 
   <div class="speakers">
     <h3>Speakers</h3>
@@ -49,7 +49,7 @@ layout: default
         </div>
         <div>
           <h4>{{speaker.name}}</h4>
-          <p>{{speaker.biography | newline_to_br}}</p>
+          <p>{{speaker.biography | markdownify}}</p>
         </div>
       </li>
       {% endfor %}
