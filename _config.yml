@@ -27,7 +27,7 @@ defaults:
       description: "Two days filled with talks, workshops, and activities. September 18 & 19, Leuven, Belgium."
       site_name: heartofclojure.eu
       url: https://2024.heartofclojure.eu
-      image: /img/opengraph.png
+      image: "https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Heart+of+Clojure&title=Two%20days%20of%20talks,%20activities,%20and%20community!&type=Conference&img=https://2024.heartofclojure.eu/img/hoc-logo-2024-avatar.png"
   - scope:
       path: ""
       type: "talks"
