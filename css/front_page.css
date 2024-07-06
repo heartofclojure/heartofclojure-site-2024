@@ -1,4 +1,4 @@
-#speakers {
+#speakers, #hosts {
   --avatar-size: 6rem;
   @media screen and (min-width: 80em) {
     width: 60vw;

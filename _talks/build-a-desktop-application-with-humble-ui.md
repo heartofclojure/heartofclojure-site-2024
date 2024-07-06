@@ -13,7 +13,7 @@ speakers:
   mastodon-handle: nikitonsky
   mastodon-instance: mastodon.online
 abstract: "Humble UI is an ongoing project to build desktop-class UIs in Clojure without help of the browser.\r\n\r\nIn this workshop, we’ll try to build a new graphical desktop application that works across all three OSes from scratch."
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Nikita+Prokopov&title=Build+a+Desktop+Application+with+Humble+UI&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/nikita-prokopov.jpg%3F1
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Nikita+Prokopov&title=Build+a+Desktop+Application+with+Humble+UI&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/nikita-prokopov.jpg%3Fv%3D2
 redirect_from:
 - /talks/making-ui-great-again-with-humble-ui/
 ---

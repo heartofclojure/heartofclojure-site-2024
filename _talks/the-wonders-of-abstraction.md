@@ -9,5 +9,5 @@ speakers:
   avatar: http://cfp.heartofclojure.eu/media/avatars/smiling_shot_N6dw0bq.jpg
   img: /img/speakers/eric-normand.jpg
 abstract: "Fish are to water as programmers are to abstraction. We swim in it all day, barely aware of it. We say \"abstraction\" all the time, but have we thought about what it means? \r\n\r\nI've spent 20 years asking how computers--that move electrons around in a complex circuit--do work useful to humans. Abstraction is the key. In this philosophical talk, we explore this wonderous process called abstraction. We'll wade through the everyday uses of the term, paddle out to formal definitions, and dive into why some abstractions give us incredible leverage. Along the way, we'll see how abstraction is at the heart of getting computers to do useful work. I hope you leave with a deeper appreciation of the wonders of programming."
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Eric+Normand&title=The+Wonders+of+Abstraction&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/eric-normand.jpg%3F1
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Eric+Normand&title=The+Wonders+of+Abstraction&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/eric-normand.jpg%3Fv%3D2
 ---

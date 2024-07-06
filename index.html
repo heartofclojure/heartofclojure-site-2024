@@ -44,6 +44,27 @@ permalink: /
 {% endif %}
 
 {% if site.sections.speakers %}
+<section id="hosts">
+  <h2>Hosts</h2>
+  <ul>
+    {% for talk in site.talks %}
+    {% for speaker in talk.speakers %}
+    {% if talk.type == "Host" %}
+    <li>
+      <img class=avatar src="{{speaker.img}}">
+      <div> 
+        <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
+        <div class="talk-type-label"><span>{{talk.type}}</span></div>
+      </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if site.sections.speakers %}
 <section id="speakers">
   <h2>Speakers</h2>
   <ul>
@@ -54,7 +75,7 @@ permalink: /
       <img class=avatar src="{{speaker.img}}">
       <div> 
         <h3><a href={{talk.url}}>{{speaker.name}}</a></h3>
-        <div class="talk-type-label"><span>Keynote</span></div>
+        <div class="talk-type-label"><span>{{talk.type}}</span></div>
       </div>
     </li>
     {% endif %}
@@ -63,7 +84,7 @@ permalink: /
     
     {% for talk in site.talks %}
     {% for speaker in talk.speakers %}
-    {% if talk.type != "Keynote" %}
+    {% if talk.type != "Keynote" and talk.type != "Host" %}
     <li>
       <img class=avatar src="{{speaker.img}}">
       <div> 
