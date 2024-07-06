@@ -1,0 +1,22 @@
+<section class="talk">
+  <div class="details">
+    <h2><a href="{{talk.url}}">{{ talk.title }}</a></h2>
+    <div class="talk-type-label"><span>{{talk.type}}</span></div>
+    <p>{{ talk.abstract | markdownify}}</p>
+  </div>
+  <div class="speakers">
+    <ul>
+      {% for speaker in talk.speakers %}
+      <li class="speaker">
+          {% include speaker.html %}
+          <div class="speaker-name">
+            <a href="{{talk.url}}">
+              {{speaker.name}}
+            </a>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,3 +1,13 @@
+#front-page {
+
+  section {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+}
 #speakers, #hosts {
   --avatar-size: 6rem;
   @media screen and (min-width: 80em) {

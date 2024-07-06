@@ -13,13 +13,6 @@ header {
 }
 
 
-section {
-  margin: 0 auto;
-  margin-top: 2rem;
-  padding: 2rem;
-  text-align: center;
-}
-
 @media only screen and (max-width: 600px) {
   section {
     padding: 1rem;

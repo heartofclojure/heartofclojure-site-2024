@@ -2,6 +2,8 @@
   path: /
 - title: Location
   path: /location
+- title: Programme
+  path: /programme
 - title: News
   path: https://gaiwan.co/tag/heart-of-clojure
 # - title: Speakers
