@@ -15,6 +15,7 @@ plugins:
 sections:
   cfp: false
   speakers: true
+  hosts: true
 collections:
   talks:
     output: true

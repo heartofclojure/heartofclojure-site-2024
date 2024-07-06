@@ -125,7 +125,7 @@ footer p {
 .bg-light-grey { background-color: snow; }
 
 .people a { border-bottom: none !important; }
-.btn-cta a { border-bottom: .25rem solid #e25f7d !important; }
+.btn-cta a { border-bottom: .25rem solid var(--pink-2) !important; }
 .btn-cta a:hover, .people a:hover { box-shadow: none !important; }
 
 /* round avatar image, used on front page and talk pages */
@@ -147,5 +147,23 @@ footer p {
     padding: 0.25rem 0.5rem;
     line-height: 1em;
     color: white;
+  }
+}
+
+.ticket-cta {
+  display: block;
+  padding: 1em 2em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--pink-2);
+  border-radius: 0.5em;
+  max-width: 12em;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--pink-5);
+    box-shadow: 0 0 0.5em var(--pink-6);
   }
 }
