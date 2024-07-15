@@ -1,7 +1,3 @@
-- name: Gaiwan
-  tier: conrete
-  img: /img/sponsors/gaiwan.png
-  url: https://gaiwan.co
 - name: NuBank
   tier: gold
   img: /img/sponsors/nubank-logo.jpg
@@ -18,42 +14,22 @@
   tier: gold
   img: /img/sponsors/latacora.png
   url: https://latacora.com
-- name: Metosin
-  tier: silver
-  img: /img/sponsors/metosin.png
-  url: https://www.metosin.fi
-# - name: Status
-#   tier: brick
-#   img: /img/sponsors/status.png
-#   url: https://status.im
-# - name: Juxt
-#   tier: concrete
-#   img: /img/sponsors/juxt.png
-#   url: https://juxt.pro/
 - name: Nextjournal
   tier: silver
   img: /img/sponsors/nextjournal-logo.jpg
   url: https://nextjournal.com
-- name: Griffin
-  tier: silver
-  img: /img/sponsors/griffin-logo.jpg
-  url: https://griffin.com/
-# - name: Grammarly
-#   tier: concrete
-#   img: /img/sponsors/grammarly.png
-#   url: https://www.grammarly.com
-# - name: Zimpler
-#   tier: timber
-#   img: /img/sponsors/zimpler.png
-#   url: https://www.zimpler.com
-# - name: Pitch
-#   tier: brick
-#   img: /img/sponsors/pitch.png
-#   url: https://pitch.com
 - name: Ibis
   tier: silver
   img: /img/sponsors/ibisai-logo.jpg
   url: https://ibis.ai/
+- name: Metosin
+  tier: silver
+  img: /img/sponsors/metosin.png
+  url: https://www.metosin.fi
+- name: Griffin
+  tier: silver
+  img: /img/sponsors/griffin-logo.jpg
+  url: https://griffin.com/
 - name: Otto
   tier: silver
   img: /img/sponsors/Otto_logo.png
@@ -66,6 +42,11 @@
   tier: supporting
   img: /img/sponsors/penpot-logo-black-square.png
   url: https://penpot.app/?utm_source=event&utm_medium=site&utm_campaign=2024&utm_id=Heartofclojure
+- name: Juxt
+  tier: silver
+  img: /img/sponsors/juxt_square_black_bg.png
+  url: https://juxt.pro/
+
 # - name: LambdaWerk
 #   tier: brick
 #   img: /img/sponsors/lambdawerk.png
@@ -98,3 +79,19 @@
 #   tier: timber
 #   img: /img/sponsors/imilingo.png
 #   url: https://imilingo.uk
+# - name: Status
+#   tier: brick
+#   img: /img/sponsors/status.png
+#   url: https://status.im
+# - name: Grammarly
+#   tier: concrete
+#   img: /img/sponsors/grammarly.png
+#   url: https://www.grammarly.com
+# - name: Zimpler
+#   tier: timber
+#   img: /img/sponsors/zimpler.png
+#   url: https://www.zimpler.com
+# - name: Pitch
+#   tier: brick
+#   img: /img/sponsors/pitch.png
+#   url: https://pitch.com
