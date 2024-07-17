@@ -10,5 +10,5 @@ abstract: 'TimeLines is an ongoing PhD research project in the design and implem
 type: Talk
 title: 'TimeLines: Crafting a Live Coding Musical Instrument with & out of Clojure'
 code: FCPHWU
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Dimitris+Kyriakoudis&title=TimeLines%3A+Crafting+a+Live+Coding+Musical+Instrument+with+%26+out+of+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/dimitris-kyriakoudis.png%3Fv%3D1721201157468
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Dimitris+Kyriakoudis&title=TimeLines%3A+Crafting+a+Live+Coding+Musical+Instrument+with+%26+out+of+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/dimitris-kyriakoudis.png%3Fv%3D1721225782271
 ---

@@ -10,5 +10,5 @@ abstract: "As women in tech I am used to being the only women in the room. I am 
 type: Session
 title: Open hearts for diversity
 code: RYKWPQ
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Katja+B%C3%B6hnke&title=Open+hearts+for+diversity&type=Session&img=https%3A//2024.heartofclojure.eu/img/speakers/katja-bohnke.jpg%3Fv%3D1721201157471
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Katja+B%C3%B6hnke&title=Open+hearts+for+diversity&type=Session&img=https%3A//2024.heartofclojure.eu/img/speakers/katja-bohnke.jpg%3Fv%3D1721225782274
 ---

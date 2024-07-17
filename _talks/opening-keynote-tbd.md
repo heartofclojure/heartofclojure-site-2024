@@ -15,5 +15,5 @@ abstract: We are excited to have Lu join us to deliver the opening keynote. Stay
 type: Keynote
 title: Opening Keynote (TBD)
 code: GJF8UZ
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Lu+Wilson&title=Opening+Keynote+%28TBD%29&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/lu-wilson.png%3Fv%3D1721201157494
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Lu+Wilson&title=Opening+Keynote+%28TBD%29&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/lu-wilson.png%3Fv%3D1721225782295
 ---

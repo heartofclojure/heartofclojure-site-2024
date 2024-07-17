@@ -10,5 +10,5 @@ abstract: Come with all your questions about Cursive! I have developed Cursive f
 type: Office Hours
 title: Cursive office hours
 code: R8UFRM
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Colin+Fleming&title=Cursive+office+hours&type=Office+Hours&img=https%3A//2024.heartofclojure.eu/img/speakers/colin-fleming.jpeg%3Fv%3D1721201157469
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Colin+Fleming&title=Cursive+office+hours&type=Office+Hours&img=https%3A//2024.heartofclojure.eu/img/speakers/colin-fleming.jpeg%3Fv%3D1721225782272
 ---
