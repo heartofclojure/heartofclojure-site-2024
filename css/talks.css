@@ -66,6 +66,9 @@
     margin-bottom: 2rem;
     margin-right: 2rem;
   }
+  #splash-image {
+    margin: 4rem 0;
+  }
 }
 
 .talks-page {
