@@ -10,7 +10,10 @@ layout: default
 
   <h2>{{ page.title }} </h2>
   <div class="talk-type-label"><span>{{page.type}}</span></div>
-  <p>{{ page.abstract | markdownify}}</p>
+  <div class="abstract">{{ page.abstract | markdownify}}</div>
+  {% if page.description %}
+  <div class="description">{{ page.description | markdownify}}</div>
+  {% endif %}
 
   <div class="speakers">
     <h3>Speakers</h3>

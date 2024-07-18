@@ -1,4 +1,5 @@
 ---
+description: ''
 speaker-img: /img/speakers/jack-rusher-paolo-holinski.png
 slug: an-introduction-to-application-garden
 speakers:
@@ -20,5 +21,5 @@ abstract: Learn how to use application.garden to quickly deploy a working applic
 type: Workshop
 title: An introduction to application.garden
 code: 7CHPV8
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Jack+Rusher%2C+Paolo+Holinski&title=An+introduction+to+application.garden&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/jack-rusher-paolo-holinski.png%3Fv%3D1721225782281
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Jack+Rusher%2C+Paolo+Holinski&title=An+introduction+to+application.garden&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/jack-rusher-paolo-holinski.png%3Fv%3D1721284426885
 ---

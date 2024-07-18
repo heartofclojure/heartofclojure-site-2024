@@ -69,6 +69,9 @@
   #splash-image {
     margin: 4rem 0;
   }
+  .description {
+    font-size: 1rem;
+  }
 }
 
 .talks-page {

@@ -1,4 +1,5 @@
 ---
+description: ''
 speaker-img: /img/speakers/anna-colom.png
 slug: responsible-data-and-ai
 speakers:
@@ -13,5 +14,5 @@ abstract: -TBD-
 type: Keynote
 title: Responsible Data and AI
 code: 3ULPRX
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Anna+Colom&title=Responsible+Data+and+AI&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/anna-colom.png%3Fv%3D1721225782295
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Anna+Colom&title=Responsible+Data+and+AI&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/anna-colom.png%3Fv%3D1721284426900
 ---

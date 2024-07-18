@@ -1,4 +1,5 @@
 ---
+description: ''
 speaker-img: /img/speakers/jordan-miller-carmen-huidobro.png
 slug: our-lovely-hosts
 speakers:
@@ -25,5 +26,5 @@ abstract: Carmen and Jordan will be your esteemed hosts. They will guide you thr
 type: Host
 title: Our Lovely Hosts
 code: XAYTG8
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Jordan+Miller%2C+Carmen+Huidobro+%28DevCraft+Academy%29&title=Our+Lovely+Hosts&type=Host&img=https%3A//2024.heartofclojure.eu/img/speakers/jordan-miller-carmen-huidobro.png%3Fv%3D1721225782297
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Jordan+Miller%2C+Carmen+Huidobro+%28DevCraft+Academy%29&title=Our+Lovely+Hosts&type=Host&img=https%3A//2024.heartofclojure.eu/img/speakers/jordan-miller-carmen-huidobro.png%3Fv%3D1721284426902
 ---

@@ -1,4 +1,5 @@
 ---
+description: A dive into how to live with legacy design by delving into of the oldest Clojure codebases the speaker maintains. This talk will cover the mechanisms Clojure has for managing backward compatibility, and how to make the best of a bad situation when mistakes are (inevitably) made.
 speaker-img: /img/speakers/james-reeves.jpeg
 slug: living-with-legacy-code
 speakers:
@@ -10,5 +11,5 @@ abstract: A look into maintaining backward compatibility in Clojure codebases.
 type: Talk
 title: Living With Legacy Code
 code: SEFW3N
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=James+Reeves&title=Living+With+Legacy+Code&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/james-reeves.jpeg%3Fv%3D1721225782138
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=James+Reeves&title=Living+With+Legacy+Code&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/james-reeves.jpeg%3Fv%3D1721284426734
 ---

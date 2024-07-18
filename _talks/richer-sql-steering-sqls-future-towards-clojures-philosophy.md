@@ -1,4 +1,5 @@
 ---
+description: ''
 speaker-img: /img/speakers/jeremy-taylor.jpg
 slug: richer-sql-steering-sqls-future-towards-clojures-philosophy
 speakers:
@@ -12,5 +13,5 @@ abstract: "SELECT NAME FROM EMP WHERE DEPT = 'TOY'\r\n\r\n...SQL has been celebr
 type: Talk
 title: Richer SQL  — Steering SQL's Future Towards Clojure's Philosophy
 code: DHG7BC
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeremy+Taylor&title=Richer+SQL++%E2%80%94+Steering+SQL%27s+Future+Towards+Clojure%27s+Philosophy&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeremy-taylor.jpg%3Fv%3D1721225782276
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeremy+Taylor&title=Richer+SQL++%E2%80%94+Steering+SQL%27s+Future+Towards+Clojure%27s+Philosophy&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeremy-taylor.jpg%3Fv%3D1721284426881
 ---

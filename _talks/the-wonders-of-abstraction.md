@@ -1,4 +1,5 @@
 ---
+description: ''
 speaker-img: /img/speakers/eric-normand.jpg
 slug: the-wonders-of-abstraction
 speakers:
@@ -11,5 +12,5 @@ abstract: "Fish are to water as programmers are to abstraction. We swim in it al
 type: Keynote
 title: The Wonders of Abstraction
 code: ULRJXZ
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Eric+Normand&title=The+Wonders+of+Abstraction&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/eric-normand.jpg%3Fv%3D1721225782145
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Eric+Normand&title=The+Wonders+of+Abstraction&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/eric-normand.jpg%3Fv%3D1721284426741
 ---
