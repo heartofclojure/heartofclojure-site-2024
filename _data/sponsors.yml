@@ -46,6 +46,10 @@
   tier: silver
   img: /img/sponsors/juxt_square_black_bg.png
   url: https://juxt.pro/
+- name: Freshcode
+  tier: silver
+  img: /img/sponsors/Freshcode-logo-square-white.png
+  url: https://www.freshcodeit.com/
 
 # - name: LambdaWerk
 #   tier: brick
