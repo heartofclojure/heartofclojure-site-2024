@@ -16,16 +16,18 @@ speakers:
   img: /img/speakers/teodor-heggelund.jpg
   personal-site-url: https://play.teod.eu/
   twitter: TeodorHeggelund
-- name: Christian Johansen
-  biography: I am a Clojure developer at the Norwegian Food Safety Authority. I have 20 years of experience building software, and have done Clojure full-time for the past 10 years. I write about software development occasionally at https://cjohansen.no and regularly at https://parenteser.mattilsynet.io (in Norwegian). I am the maintainer of some open source projects, notably Portfolio (https://github.com/cjohansen/portfolio), which was sponsored by Clojurists Together in 2023. I also demonstrate pair programming and using Clojure and ClojureScript to fight zombies in the screencast https://parensofthedead.com/
-  avatar: http://cfp.heartofclojure.eu/media/avatars/christian_I5xhXLV.jpg
-  img: /img/speakers/christian-johansen.jpg
-  mastodon: '@christian@deff.no'
+- mastodon: '@christian@deff.no'
+  name: Christian Johansen
+  twitter: cjno
   mastodon-handle: christian
+  personal-site-url: https://cjohansen.no
   mastodon-instance: deff.no
+  avatar: http://cfp.heartofclojure.eu/media/avatars/christian_I5xhXLV.jpg
+  biography: I am a Clojure developer at the Norwegian Food Safety Authority. I have 20 years of experience building software, and have done Clojure full-time for the past 10 years. I write about software development occasionally at https://cjohansen.no and regularly at https://parenteser.mattilsynet.io (in Norwegian). I am the maintainer of some open source projects, notably Portfolio (https://github.com/cjohansen/portfolio), which was sponsored by Clojurists Together in 2023. I also demonstrate pair programming and using Clojure and ClojureScript to fight zombies in the screencast https://parensofthedead.com/
+  img: /img/speakers/christian-johansen.jpg
 abstract: "What is Babashka? Why should you care?\r\n\r\nIn 90 minutes you’ll get an introduction to Babashka, and hands-on experience with it through a shared programming experience with the rest of the group and two veteran Clojure programmers. You’ll learn what Babashka is, how it fits in with JVM Clojure, and how to work with it in a practical sense.\r\n\r\nThe workshop aims to be a joyful learning experience where we’ll get to know each other better and learn more about REPL-driven programming, testing Clojure, and, of course scripting with Babashka."
 type: Workshop
 title: Babashka in practice
 code: RYJ78V
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Michiel+Borkent%2C+Teodor+Heggelund%2C+Christian+Johansen&title=Babashka+in+practice&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/michiel-borkent-teodor-heggelund-christian-johansen.png%3Fv%3D1721284426746
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Michiel+Borkent%2C+Teodor+Heggelund%2C+Christian+Johansen&title=Babashka+in+practice&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/michiel-borkent-teodor-heggelund-christian-johansen.png%3Fv%3D1725345459071
 ---

@@ -11,5 +11,5 @@ abstract: The presentation, created in collaboration with Daniel Slutsky and the
 type: Talk
 title: 'Sailing with Scicloj: A Bayesian Adventure'
 code: JYHR9S
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Sami+Kallinen&title=Sailing+with+Scicloj%3A+A+Bayesian+Adventure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/sami-kallinen.png%3Fv%3D1721284426732
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Sami+Kallinen&title=Sailing+with+Scicloj%3A+A+Bayesian+Adventure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/sami-kallinen.png%3Fv%3D1725345459053
 ---
