@@ -14,5 +14,5 @@ abstract: "To the mainstream public (devs and business folks), clojure is either
 type: Talk
 title: 'Beyond the Hype: Obstacles on the Path to Clojure Adoption'
 code: KPLYME
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Mitesh+Shah&title=Beyond+the+Hype%3A+Obstacles+on+the+Path+to+Clojure+Adoption&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/mitesh-shah.png%3Fv%3D1725345459222
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Mitesh+Shah&title=Beyond+the+Hype%3A+Obstacles+on+the+Path+to+Clojure+Adoption&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/mitesh-shah.png%3Fv%3D1725345969858
 ---
