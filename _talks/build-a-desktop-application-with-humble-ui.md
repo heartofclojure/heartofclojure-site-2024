@@ -17,5 +17,5 @@ abstract: "Humble UI is an ongoing project to build desktop-class UIs in Clojure
 type: Workshop
 title: Build a Desktop Application with Humble UI
 code: W8JQNR
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Nikita+Prokopov&title=Build+a+Desktop+Application+with+Humble+UI&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/nikita-prokopov.jpg%3Fv%3D1725345969844
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Nikita+Prokopov&title=Build+a+Desktop+Application+with+Humble+UI&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/nikita-prokopov.jpg%3Fv%3D1725346190735
 ---

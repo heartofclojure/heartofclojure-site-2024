@@ -13,5 +13,5 @@ abstract: Diving head first into shadow-cljs and the surrounding ecosystem can b
 type: Talk
 title: 'Squint: a taste of Clojure for JavaScript devs'
 code: MZV7H9
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Felix+Alm+%28JUXT%29&title=Squint%3A+a+taste+of+Clojure+for+JavaScript+devs&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/felix-alm.jpeg%3Fv%3D1725345969874
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Felix+Alm+%28JUXT%29&title=Squint%3A+a+taste+of+Clojure+for+JavaScript+devs&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/felix-alm.jpeg%3Fv%3D1725346190759
 ---

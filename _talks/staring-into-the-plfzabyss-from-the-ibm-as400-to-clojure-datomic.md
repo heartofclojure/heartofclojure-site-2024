@@ -21,5 +21,5 @@ abstract: "Starting in 2021, we naively took on the task of bringing mission-cri
 type: Talk
 title: Staring into the PLFZABYSS - From the IBM AS/400 to Clojure & Datomic
 code: 3PV78J
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Philippa+Markovics%2C+Martin+Kavalar&title=Staring+into+the+PLFZABYSS+-+From+the+IBM+AS/400+to+Clojure+%26+Datomic&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/philippa-markovics-martin-kavalar.png%3Fv%3D1725345969721
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Philippa+Markovics%2C+Martin+Kavalar&title=Staring+into+the+PLFZABYSS+-+From+the+IBM+AS/400+to+Clojure+%26+Datomic&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/philippa-markovics-martin-kavalar.png%3Fv%3D1725346190604
 ---

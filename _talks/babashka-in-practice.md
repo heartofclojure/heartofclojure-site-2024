@@ -29,5 +29,5 @@ abstract: "What is Babashka? Why should you care?\r\n\r\nIn 90 minutes you’ll 
 type: Workshop
 title: Babashka in practice
 code: RYJ78V
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Michiel+Borkent%2C+Teodor+Heggelund%2C+Christian+Johansen&title=Babashka+in+practice&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/michiel-borkent-teodor-heggelund-christian-johansen.png%3Fv%3D1725345969717
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Michiel+Borkent%2C+Teodor+Heggelund%2C+Christian+Johansen&title=Babashka+in+practice&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/michiel-borkent-teodor-heggelund-christian-johansen.png%3Fv%3D1725346190600
 ---

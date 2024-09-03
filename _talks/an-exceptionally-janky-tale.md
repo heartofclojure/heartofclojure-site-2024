@@ -15,5 +15,5 @@ abstract: "Gather 'round, friends, it's story time! Hear the adventurous tale of
 type: Talk
 title: An Exceptionally Janky Tale
 code: 9WTPNL
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeaye+Wilkerson&title=An+Exceptionally+Janky+Tale&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeaye-wilkerson.png%3Fv%3D1725345969711
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Jeaye+Wilkerson&title=An+Exceptionally+Janky+Tale&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/jeaye-wilkerson.png%3Fv%3D1725346190585
 ---

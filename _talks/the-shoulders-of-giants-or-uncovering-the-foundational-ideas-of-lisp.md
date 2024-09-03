@@ -16,5 +16,5 @@ abstract: "In the world of computer science, we often acknowledge that we are st
 type: Talk
 title: The Shoulders of Giants or Uncovering the Foundational Ideas of Lisp
 code: RDA8K9
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Daniel+Szmulewicz&title=The+Shoulders+of+Giants+or+Uncovering+the+Foundational+Ideas+of+Lisp&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/daniel-szmulewicz.jpg%3Fv%3D1725345969698
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Daniel+Szmulewicz&title=The+Shoulders+of+Giants+or+Uncovering+the+Foundational+Ideas+of+Lisp&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/daniel-szmulewicz.jpg%3Fv%3D1725346190572
 ---
