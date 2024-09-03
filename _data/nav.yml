@@ -6,6 +6,9 @@
   path: /programme
 - title: News
   path: https://gaiwan.co/tag/heart-of-clojure
+- title: Compass
+  path: https://compass.heartofclojure.eu
+  
 # - title: Speakers
 #   path: /speakers
 # - title: Guide
