@@ -15,5 +15,5 @@ abstract: Over the past five years, the European Commission has invested over 25
 type: Talk
 title: 'Klor: Choreographic Programming in Clojure'
 code: L8VJWX
-image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Lovro+Lugovi%C4%87%2C+Sung-Shik+Jongmans&title=Klor%3A+Choreographic+Programming+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/lovro-lugovic-sung-shik-jongmans.png%3Fv%3D1725346190745
+image: https://dynogee.com/gen?id=kr8gdk8c4ya552y&speaker=Lovro+Lugovi%C4%87%2C+Sung-Shik+Jongmans&title=Klor%3A+Choreographic+Programming+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/lovro-lugovic-sung-shik-jongmans.png%3Fv%3D1553928658
 ---

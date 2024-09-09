@@ -15,5 +15,5 @@ abstract: This talk will be a story of inheriting a bespoke text editor with ann
 type: Talk
 title: Building Conversational Speech Annotation Tool in Clojure
 code: SL7C7G
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Pawe%C5%82+Stroi%C5%84ski&title=Building+Conversational+Speech+Annotation+Tool+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/pawel-stroinski.jpeg%3Fv%3D1725346190758
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Pawe%C5%82+Stroi%C5%84ski&title=Building+Conversational+Speech+Annotation+Tool+in+Clojure&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/pawel-stroinski.jpeg%3Fv%3D-980027601
 ---

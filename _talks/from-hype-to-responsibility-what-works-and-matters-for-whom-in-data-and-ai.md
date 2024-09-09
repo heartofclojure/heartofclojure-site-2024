@@ -16,5 +16,5 @@ abstract: We are going through unprecedented times in the pace and scale of tech
 type: Keynote
 title: 'From hype to responsibility: what works and matters for whom in data and AI?'
 code: 3ULPRX
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Anna+Colom&title=From+hype+to+responsibility%3A+what+works+and+matters+for+whom+in+data+and+AI%3F&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/anna-colom.png%3Fv%3D1725346190762
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Anna+Colom&title=From+hype+to+responsibility%3A+what+works+and+matters+for+whom+in+data+and+AI%3F&type=Keynote&img=https%3A//2024.heartofclojure.eu/img/speakers/anna-colom.png%3Fv%3D1659574434
 ---

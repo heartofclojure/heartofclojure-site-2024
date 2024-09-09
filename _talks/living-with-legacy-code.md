@@ -11,5 +11,5 @@ abstract: A look into maintaining backward compatibility in Clojure codebases.
 type: Talk
 title: Living With Legacy Code
 code: SEFW3N
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=James+Reeves&title=Living+With+Legacy+Code&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/james-reeves.jpeg%3Fv%3D1725346190580
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=James+Reeves&title=Living+With+Legacy+Code&type=Talk&img=https%3A//2024.heartofclojure.eu/img/speakers/james-reeves.jpeg%3Fv%3D1249181917
 ---

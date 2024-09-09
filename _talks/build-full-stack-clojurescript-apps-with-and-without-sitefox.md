@@ -15,5 +15,5 @@ abstract: Interested in building "full stack" ClojureScript software running on 
 type: Workshop
 title: Build full-stack ClojureScript apps with and without Sitefox
 code: XXE9RM
-image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Chris+McCormick&title=Build+full-stack+ClojureScript+apps+with+and+without+Sitefox&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/chris-mccormick.jpg%3Fv%3D1725346190583
+image: https://dynogee.com/gen?id=xqxdvgzswovkl2c&speaker=Chris+McCormick&title=Build+full-stack+ClojureScript+apps+with+and+without+Sitefox&type=Workshop&img=https%3A//2024.heartofclojure.eu/img/speakers/chris-mccormick.jpg%3Fv%3D1515710187
 ---
