@@ -1,0 +1,34 @@
+* {
+--color-medium: #333;
+}
+h1 {
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+body .slide h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+.speaker-notes {
+    display:none;
+}
+
+.slide:has(.bg-pink) {
+    background-color: #e25f7d;
+}
+.slide:has(.bg-green) {
+    background-color: #99db70;
+}
+
+/* (o/defprop --hoc-pink "") */
+/* (o/defprop --hoc-pink-1 "#e7879d") */
+/* (o/defprop --hoc-pink-2 "#cd4e6a") */
+/* (o/defprop --hoc-pink-3 --hoc-pink) */
+/* (o/defprop --hoc-pink-4 "#c0415b") */
+/* (o/defprop --hoc-green "#99db70") */

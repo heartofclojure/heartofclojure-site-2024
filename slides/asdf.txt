@@ -1,0 +1,6 @@
+ 3022  asdf global ruby 2.7.8
+ 3030  asdf plugin-add bundler git@github.com:jonathanmorley/asdf-bundler.git
+ 3031  asdf list all bundler
+ 3032  asdf install bundler 2.4.22
+ 3033  asdf global bundler 2.4.22
+ 3036  history | grep asdf
