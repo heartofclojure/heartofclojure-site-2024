@@ -2,11 +2,10 @@
 description: ''
 speaker-img: /img/speakers/felix-alm.jpeg
 slug: squint-a-taste-of-clojure-for-javascript-devs
-<object data="/assets/Squint A Taste of Clojure for JavaScript devs - Heart of Clojure 2024.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://2024.heartofclojure.eu/assets/Squint%20A%20Taste%20of%20Clojure%20for%20JavaScript%20devs%20-%20Heart%20of%20Clojure%202024.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://2024.heartofclojure.eu/assets/Squint%20A%20Taste%20of%20Clojure%20for%20JavaScript%20devs%20-%20Heart%20of%20Clojure%202024.pdf">Download PDF</a>.</p>
-    </embed>
+<object data="assets/Squint A Taste of Clojure for JavaScript devs - Heart of Clojure 2024.pdf" type="application/pdf" width="300px" height="200px">
+  alt : <a href="assets/Squint A Taste of Clojure for JavaScript devs - Heart of Clojure 2024.pdf">test.pdf</a>
 </object>
+
 speakers:
 - name: Felix Alm
   biography: Felix left a biochemistry major after an "Intro to Programming"-course during his second year completely stole the show. Some zigzagging later he's now been working in the industry using functional languages since 2017. Clojure became his favourite side project tool early on and 2.5 years ago, when he joined JUXT, it has been his full-time language as well.
