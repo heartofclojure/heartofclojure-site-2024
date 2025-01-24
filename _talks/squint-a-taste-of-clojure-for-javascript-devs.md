@@ -2,7 +2,7 @@
 description: ''
 speaker-img: /img/speakers/felix-alm.jpeg
 slug: squint-a-taste-of-clojure-for-javascript-devs
-<object data=" /assets/Squint A Taste of Clojure for JavaScript devs - Heart of Clojure 2024.pdf" type="application/pdf" width="700px" height="700px">
+<object data="/assets/Squint A Taste of Clojure for JavaScript devs - Heart of Clojure 2024.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://2024.heartofclojure.eu/assets/Squint%20A%20Taste%20of%20Clojure%20for%20JavaScript%20devs%20-%20Heart%20of%20Clojure%202024.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://2024.heartofclojure.eu/assets/Squint%20A%20Taste%20of%20Clojure%20for%20JavaScript%20devs%20-%20Heart%20of%20Clojure%202024.pdf">Download PDF</a>.</p>
     </embed>
